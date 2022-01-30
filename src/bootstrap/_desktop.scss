@@ -1,0 +1,31 @@
+@include media-breakpoint-up(md) {
+  .home {
+    .col {
+      max-width: 225px;
+      margin: auto;
+    }
+  }
+  .addfiltersbuttons {
+      position: unset !important;
+
+    .navbar-collapse {
+        display: flex;
+    }
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        
+        input { 
+            margin: 0 10px;
+            width: 220px;
+            flex-grow: 1;
+        }
+    }
+
+    .btn-dark {
+        width: auto !important;
+        height: 100%;
+    }
+  }
+}

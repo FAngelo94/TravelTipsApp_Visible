@@ -1,0 +1,12 @@
+// Added by me
+
+// z-index
+@for $i from 1 through 3 {
+  .z-index-#{$i} {
+    z-index: $i;
+  }
+}
+
+.z-index-1100 {
+  z-index: 1100;
+}
